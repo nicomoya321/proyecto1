@@ -1,6 +1,7 @@
 
 import pandas as pd
-from fastapi import FastAPI
+import FastAPI
+from src import database
 
 df_games = pd.read_csv('./df_steam_games.csv')
 
